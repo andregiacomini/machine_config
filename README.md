@@ -14,8 +14,8 @@
 
 ## Making an executable
 
--Install pyinstaller 
--To make the executable, run the following command in terminal.py dir:
+- Install pyinstaller 
+- To make the executable, run the following command in terminal.py dir:
 
 pyinstaller --onefile --paths ..\\terminal\\venv\\Lib\\site-packages --windowed Configurador.py
 
