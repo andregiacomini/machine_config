@@ -12,3 +12,10 @@
 - Dependency to read json in C, thanks to zserge for jsmn.h lib
 - https://github.com/zserge/jsmn
 
+## Making an executable
+
+-Install pyinstaller 
+-To make the executable, run the following command in terminal.py dir:
+
+pyinstaller --onefile --paths ..\\terminal\\venv\\Lib\\site-packages --windowed Configurador.py
+
