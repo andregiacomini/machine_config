@@ -6,5 +6,7 @@
   
 ## Example of firmware to communicate 
 
-- Dependency to read json in C, example.c, thanks to zserge for jsmn.h lib
+- The file example.c contains a shunk of code to read and write the parameters from UART 
+- Dependency to read json in C, thanks to zserge for jsmn.h lib
+- https://github.com/zserge/jsmn
 
