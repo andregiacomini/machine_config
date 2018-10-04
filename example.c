@@ -1,15 +1,15 @@
-``
-  #include "jsmn.h"
 
-  char dataRX[50];
-  char dataTX[50];
-  osEvent flags;
-  uint8_t i,j;
-  char *js;
-  char *js_end;
-  jsmn_parser* parser;
-  jsmntok_t tokens[10];
-  char buffer[15];
+#include "jsmn.h"
+
+char dataRX[50];
+char dataTX[50];
+osEvent flags;
+uint8_t i,j;
+char *js;
+char *js_end;
+jsmn_parser* parser;
+jsmntok_t tokens[10];
+char buffer[15];
 
 js = strchr((char*)dataRX, '{');
   js_end = strchr((char*)dataRX, '*');
